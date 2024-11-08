@@ -1,0 +1,151 @@
+/* Style de base pour la page */
+body {
+  background-color: #0b0d47;
+  font-family: "Share Tech Mono", sans-serif;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.page--index {
+  background-image: url(../assets/images/voiture.png);
+  background-repeat: no-repeat;
+  background-position: center -5px;
+  background-size: 60%;
+}
+
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header__title {
+  font-weight: 100;
+  color: #fcdd48;
+  font-size: 36px;
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.hidden {
+  display: none;
+}
+@media (min-width: 600px) {
+  .content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .header__title {
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  .container {
+    padding-top: 250px;
+  }
+}
+
+@media (min-width: 1124px) {
+  .content {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .header__title {
+    padding-left: 80px;
+    padding-top: 45px;
+  }
+  .container {
+    padding-top: 400px;
+  }
+}
+
+.week {
+  padding-top: 20px;
+}
+
+.week__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.week__item {
+  line-height: 2;
+}
+
+.week__text {
+  font-size: 20px;
+}
+
+.week__icon--yellow {
+  color: #fcdd48;
+}
+
+.week__dates {
+  list-style-type: none;
+  padding: 0;
+}
+
+.week__date-text {
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.week__date-text:hover {
+  color: #fcdd48;
+}
+
+.avatar {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__image {
+  transform: rotate(-0.122deg);
+  width: 80px;
+}
+
+@media (min-width: 800px) {
+  .content {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .header__title {
+    padding-left: 120px;
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .header__title {
+    padding-left: 160px;
+    padding-top: 75px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header__title {
+    padding-left: 250px;
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1850px) {
+  .header__title {
+    padding-left: 250px;
+    padding-top: 100px;
+  }
+}
