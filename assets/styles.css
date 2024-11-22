@@ -35,6 +35,7 @@ body {
 .hidden {
   display: none;
 }
+
 @media (min-width: 600px) {
   .content {
     padding-left: 100px;
@@ -100,6 +101,15 @@ body {
 }
 
 .week__date-text:hover {
+  color: #fcdd48;
+}
+
+.day-title {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.day-title:hover {
   color: #fcdd48;
 }
 
