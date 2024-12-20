@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
       !week.classList.contains("week__dates--week2") &&
       !week.classList.contains("week__dates--week3") &&
       !week.classList.contains("week__dates--week4") &&
-      !week.classList.contains("week__dates--week5")
+      !week.classList.contains("week__dates--week5") &&
+      !week.classList.contains("week__dates--week6") &&
+      !week.classList.contains("week__dates--week7")
     ) {
       week.classList.add("hidden");
     }
